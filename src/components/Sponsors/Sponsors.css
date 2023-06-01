@@ -1,0 +1,8 @@
+.sponsors-container {
+  width: 826px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  transform: translateY(-150px);
+}

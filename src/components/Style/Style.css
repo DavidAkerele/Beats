@@ -1,0 +1,118 @@
+.style-container {
+  width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.style-container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  /* identical to box height, or 89% */
+
+  text-align: center;
+
+  background: linear-gradient(180deg, #424245 0%, rgba(102, 102, 122, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  /* width: 355px; */
+  padding-bottom: 120px;
+}
+
+.card {
+  width: 162px;
+  height: 200px;
+  /* border: 1px solid white; */
+  position: relative;
+}
+
+.inner {
+  padding-top: 50px;
+  height: 100%;
+}
+
+.array {
+  width: 582px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
+  grid-gap: 48px;
+  margin: 0 auto;
+}
+
+.array-bottom {
+  display: flex;
+  background: #181a1b;
+  padding: 20px;
+  padding-top: 100px;
+  border-radius: 8px;
+  height: 100%;
+  /* align-items: bottom; */
+  justify-content: space-between;
+}
+
+.abl {
+  background: transparent;
+}
+
+.headset {
+  position: absolute;
+  background: transparent;
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+}
+
+.cardimg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.abl h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  background: transparent;
+
+  color: #f2f2f3;
+}
+
+.abl p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #bdc0c2;
+  background: transparent;
+}
+
+/* .hey {
+}
+
+.hey-cont{
+    width: 20px;
+} */
+
+.array-bottom button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: #0a0a0b;
+  border-radius: 8px;
+}
+
+.hey img {
+  background: transparent;
+}

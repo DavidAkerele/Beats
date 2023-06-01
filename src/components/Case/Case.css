@@ -1,0 +1,55 @@
+.case-container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 108px;
+  /* identical to box height */
+
+  text-align: center;
+
+  background: linear-gradient(180deg, #424245 0%, rgba(102, 102, 122, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 36px;
+  padding-top: 133px;
+}
+.case-down {
+  display: flex;
+  width: 622px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.case-right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  width: 242px;
+  height: 160px;
+
+  color: #bdc0c2;
+  margin-bottom: 46px;
+}
+
+.case-right button {
+  width: 156px;
+  height: 55px;
+  align-items: center;
+  display: flex;
+  color: white;
+  border: none;
+  background: #1e1e21;
+  border-radius: 8px;
+  padding: 24px 15px 23px 15px;
+}
+
+.case-right button img {
+  padding-right: 13px;
+  background: transparent;
+}

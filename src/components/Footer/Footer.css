@@ -1,0 +1,82 @@
+.footer-container {
+  display: flex;
+  width: 1059px;
+  justify-content: space-between;
+  color: white;
+  margin: 0 auto;
+  padding-top: 136px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.heed {
+  padding-bottom: 19px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #f2f2f3;
+}
+
+.newsletter input {
+  width: 343px;
+  height: 56px;
+  border: none;
+  background: #181a1b;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  /* identical to box height, or 194% */
+
+  color: #ffffff;
+
+  /* opacity: 0.67; */
+  padding-left: 29px;
+}
+
+.newsletter button {
+  width: 117px;
+  height: 39px;
+  border: none;
+
+  background: #0a0a0b;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 16px; */
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transform: translateX(-133px);
+}
+
+.newsletter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 108px;
+  justify-content: space-between;
+}
+.log {
+  align-items: center;
+  display: flex;
+}
+
+.newsletter img {
+  width: 188px;
+  height: 32px;
+  display: flex;
+  left: 0;
+}
+
+.newsimg {
+  width: 460px;
+}

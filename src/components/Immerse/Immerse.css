@@ -1,0 +1,65 @@
+.immerse-container {
+  display: flex;
+  width: 968px;
+  margin: 0 auto;
+  gap: 84px;
+  background: #181a1b;
+  border-radius: 8px;
+  align-items: center;
+  padding-left: 146px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-top: 134px;
+  margin-bottom: 109px;
+}
+
+.immerse-container img {
+  background: transparent;
+}
+.immerse-left {
+  background: transparent;
+}
+.immerse-left h3 {
+  width: 242px;
+  /* height: 36px; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  background: transparent;
+  color: #f2f2f3;
+  padding-bottom: 16px;
+}
+
+.immerse-left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  padding-bottom: 16px;
+  color: #bdc0c2;
+  background: transparent;
+}
+
+.immerse-left button {
+  width: 156px;
+  height: 55px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  padding-left: 24px;
+  gap: 14px;
+}
+
+.immerse-left button img {
+  background: transparent;
+}
